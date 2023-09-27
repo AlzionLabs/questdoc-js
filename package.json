@@ -1,7 +1,7 @@
 {
-  "name": "questgpt",
+  "name": "questgpt-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "The official QuestGPT API wrapper for Javascript.",
   "main": "index.js",
   "scripts": {
     "build": "tsup",
@@ -9,7 +9,11 @@
     "prepublishOnly": "npm run build"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlzionLabs/questgpt-js.git"
+  },
   "devDependencies": {
     "@types/node": "^20.7.0",
     "tsup": "^7.2.0",
